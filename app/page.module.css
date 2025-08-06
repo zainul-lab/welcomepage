@@ -60,7 +60,9 @@
   display: flex;
   gap: 16px;
 }
-
+.nextjs-toast{
+  display: none !important;
+}
 .ctas a {
   appearance: none;
   border-radius: 128px;

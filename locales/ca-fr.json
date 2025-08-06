@@ -1,0 +1,23 @@
+{
+  "welcomePage": {
+    "title": "Bienvenue sur le formulaire intelligent du Fonds de marchés privés BMO Partners Group",
+    "description": "Cet outil vous fournira des formulaires PDF prêts à être signés ou à être signés électroniquement.",
+    "pdfListTitle": "PDF imprimables générés dans le cadre du formulaire intelligent de sous-accord :",
+    "pdfItems": [
+      "Demande d'abonnement à la série F",
+      "Annexe A - Certificat de l'agent du souscripteur",
+      "Annexe B - Certificat d'investisseur qualifié",
+      "Formulaire de reconnaissance des risques 45-106F9",
+      "Annexe C - Consentement à la livraison électronique",
+      "Annexe D - Formulaires d'identification Fatca et CRS",
+      "Annexe E - Coordonnées des autorités de réglementation des valeurs mobilières",
+      "Tableur d'achat groupé de comptes gérés (le cas échéant)"
+    ],
+    "buttons": {
+      "cancel": "ANNULER",
+      "continue": "CONTINUER"
+    },
+    "noteHeading": "Remarque :",
+    "note": "Les données recueillies dans l'application Smart Form ne sont pas stockées par BMO, elles doivent donc être entièrement complétées en une seule session, sinon la progression"
+}
+}

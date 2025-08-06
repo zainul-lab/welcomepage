@@ -1,0 +1,24 @@
+
+{
+  "welcomePage": {
+    "title": "Welcome to BMO Partners Group Private Markets Fund Smart Form",
+    "description": "This tool will provide you with PDF forms ready for signature or e-signature.",
+    "pdfListTitle": "Printable PDFs generated as part of the Sub-Agreement smart form:",
+    "pdfItems": [
+      "Application for a Series F Subscription Agreement",
+      "Annex A - Certificate of Subscriber's Agent",
+      "Annex B - Accredited Investor Certificate",
+      "Risk Acknowledgement Form 45-106F9",
+      "Annex C - Consent to Electronic Delivery",
+      "Annex D - Fatca and CRS Identification Forms",
+      "Annex E - Contact Information for Securities Regulatory Authorities",
+      "Managed Account Bulk Purchase Spreadsheet (If Applicable)"
+    ],
+    "buttons": {
+      "cancel": "CANCEL",
+      "continue": "CONTINUE"
+    },
+    "noteHeading": "Note:",
+    "note": "The data gathered in the Smart Form App is not stored by BMO, therefore must be fully completed in one session, otherwise progress will be lost."
+  }
+}
