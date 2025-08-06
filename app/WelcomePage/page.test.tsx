@@ -1,7 +1,5 @@
-import React from "react";
+import "@testing-library/jest-dom";
 import { render, screen, fireEvent } from "@testing-library/react";
-// Import jest-dom types for custom matchers
-import "@testing-library/jest-dom/extend-expect";
 import WelcomePage from "./page";
 import { ContentProvider } from "../../contexts/LocaleContext";
 
