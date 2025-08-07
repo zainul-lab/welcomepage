@@ -1,16 +1,24 @@
+// jest.config.js
 module.exports = {
-  preset: "ts-jest",
-  testEnvironment: "jsdom",
-  transform: {
-    "^.+\\.(ts|tsx)$": "ts-jest"
-  },
+  testEnvironment: 'jsdom',
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   moduleNameMapper: {
-    "^@radix-ui/themes$": "<rootDir>/node_modules/@radix-ui/themes",
-    "^@radix-ui/react-dialog$": "<rootDir>/node_modules/@radix-ui/react-dialog",
-    "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    '^@/(.*)$': '<rootDir>/src/$1'
   },
-  // 👇 Add this to transform Radix UI and Next.js node_modules
-  transformIgnorePatterns: [
-    "/node_modules/(?!((@radix-ui|@next|next|react-dom|react)/))"
-  ]
+  collectCoverage: true,
+  collectCoverageFrom: [
+    'src/**/*.{js,jsx,ts,tsx}',
+    '!**/*.d.ts',
+    '!**/_app.{js,jsx,ts,tsx}',
+    '!**/_document.{js,jsx,ts,tsx}',
+    '!**/node_modules/**'
+  ],
+  coverageThreshold: {
+    global: {
+      branches: 80,
+      functions: 80,
+      lines: 90,
+      statements: 90
+    }
+  }
 };
