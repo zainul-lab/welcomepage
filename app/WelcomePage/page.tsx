@@ -110,6 +110,7 @@ export default function WelcomePage() {
             {buttons.cancel}
           </Button>
           <Button
+            onClick={handleContinue}
             variant="outline"
             size="4"
             radius="large"
